@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="191" id="KGk-i7-Jjw" customClass="ReceiverCell" customModule="KMReceiverCellDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z2a-dP-Nh9" userLabel="line">
+                        <rect key="frame" x="0.0" y="46.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="BxP-WX-gB0"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发送给：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FX1-Hz-xoT">
+                        <rect key="frame" x="14" y="14" width="65.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="24M-MC-WqA">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="48"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="5TG-cz-GQF"/>
+                            <constraint firstAttribute="width" id="6PO-iK-Nb8"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名 / 手机号 / 邮箱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgs-cb-RRq" userLabel="placeholder">
+                        <rect key="frame" x="79.5" y="14" width="158" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.76078431369999999" green="0.76862745099999996" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v08-4h-Sv3" userLabel="info">
+                        <rect key="frame" x="79" y="15" width="35.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdI-A7-hID">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <action selector="beginEditing:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Fxm-T7-gts"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wB8-Ov-W8y">
+                        <rect key="frame" x="283" y="13" width="22" height="22"/>
+                        <color key="tintColor" red="0.1960784314" green="0.60784313729999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="clickAddButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FJ5-AI-1oE"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="v08-4h-Sv3" firstAttribute="centerY" secondItem="FX1-Hz-xoT" secondAttribute="centerY" id="934-jm-Evg"/>
+                    <constraint firstAttribute="bottom" secondItem="Z2a-dP-Nh9" secondAttribute="bottom" id="96k-kY-IdD"/>
+                    <constraint firstItem="tgs-cb-RRq" firstAttribute="centerY" secondItem="FX1-Hz-xoT" secondAttribute="centerY" id="9YV-9Y-4D5"/>
+                    <constraint firstItem="v08-4h-Sv3" firstAttribute="leading" secondItem="FX1-Hz-xoT" secondAttribute="trailing" id="FZI-st-YRk"/>
+                    <constraint firstAttribute="bottom" secondItem="24M-MC-WqA" secondAttribute="bottom" id="J2B-ek-fvO"/>
+                    <constraint firstItem="Z2a-dP-Nh9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="NPj-mq-Kto"/>
+                    <constraint firstItem="24M-MC-WqA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="O9s-64-0r6"/>
+                    <constraint firstItem="hdI-A7-hID" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="RFh-t8-Jra"/>
+                    <constraint firstAttribute="bottom" secondItem="hdI-A7-hID" secondAttribute="bottom" id="Una-Nn-X3C"/>
+                    <constraint firstAttribute="trailing" secondItem="wB8-Ov-W8y" secondAttribute="trailing" constant="15" id="YNq-tV-p2S"/>
+                    <constraint firstItem="FX1-Hz-xoT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="bqS-is-NhS"/>
+                    <constraint firstAttribute="trailing" secondItem="Z2a-dP-Nh9" secondAttribute="trailing" id="eRe-nA-2M7"/>
+                    <constraint firstItem="hdI-A7-hID" firstAttribute="leading" secondItem="24M-MC-WqA" secondAttribute="trailing" id="gcT-0i-orX"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="v08-4h-Sv3" secondAttribute="trailing" constant="14" id="jxv-AQ-8Vt"/>
+                    <constraint firstItem="Z2a-dP-Nh9" firstAttribute="top" secondItem="wB8-Ov-W8y" secondAttribute="bottom" constant="12" id="n1k-TD-HAp"/>
+                    <constraint firstAttribute="trailing" secondItem="hdI-A7-hID" secondAttribute="trailing" id="wLY-dv-weq"/>
+                    <constraint firstItem="tgs-cb-RRq" firstAttribute="leading" secondItem="FX1-Hz-xoT" secondAttribute="trailing" id="yH7-Z3-V5e"/>
+                    <constraint firstItem="FX1-Hz-xoT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="ylF-vW-3o5"/>
+                    <constraint firstItem="24M-MC-WqA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zZz-Ih-dBI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addButton" destination="wB8-Ov-W8y" id="X5q-ku-JdI"/>
+                <outlet property="beginEditingButton" destination="hdI-A7-hID" id="4n8-iB-J1a"/>
+                <outlet property="pillar" destination="5TG-cz-GQF" id="gNq-bs-Q1O"/>
+                <outlet property="placeholderLabel" destination="tgs-cb-RRq" id="cPN-WR-O12"/>
+                <outlet property="receiversInfoLabel" destination="v08-4h-Sv3" id="2DV-5y-mjW"/>
+                <outlet property="sendToLabel" destination="FX1-Hz-xoT" id="IKh-Mp-Iku"/>
+            </connections>
+            <point key="canvasLocation" x="-677" y="98"/>
+        </tableViewCell>
+    </objects>
+</document>

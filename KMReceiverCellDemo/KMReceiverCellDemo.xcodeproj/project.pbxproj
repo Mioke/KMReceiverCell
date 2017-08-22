@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF7C0F221F4BCCD900952CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C0F211F4BCCD900952CC8 /* AppDelegate.swift */; };
+		AF7C0F241F4BCCD900952CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C0F231F4BCCD900952CC8 /* ViewController.swift */; };
+		AF7C0F271F4BCCD900952CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7C0F251F4BCCD900952CC8 /* Main.storyboard */; };
+		AF7C0F291F4BCCD900952CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7C0F281F4BCCD900952CC8 /* Assets.xcassets */; };
+		AF7C0F2C1F4BCCD900952CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7C0F2A1F4BCCD900952CC8 /* LaunchScreen.storyboard */; };
+		AF7C0F371F4BCCD900952CC8 /* KMReceiverCellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C0F361F4BCCD900952CC8 /* KMReceiverCellDemoUITests.swift */; };
+		AF7C0F451F4BCD2C00952CC8 /* ReceiverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C0F421F4BCD2C00952CC8 /* ReceiverCell.swift */; };
+		AF7C0F461F4BCD2C00952CC8 /* ReceiverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7C0F431F4BCD2C00952CC8 /* ReceiverCell.xib */; };
+		AF7C0F471F4BCD2C00952CC8 /* ReceiverTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C0F441F4BCD2C00952CC8 /* ReceiverTextField.swift */; };
+		AF7C0F491F4BCD6200952CC8 /* ReceiverCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C0F481F4BCD6200952CC8 /* ReceiverCellModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF7C0F331F4BCCD900952CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7C0F161F4BCCD900952CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7C0F1D1F4BCCD900952CC8;
+			remoteInfo = KMReceiverCellDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF7C0F1E1F4BCCD900952CC8 /* KMReceiverCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMReceiverCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7C0F211F4BCCD900952CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF7C0F231F4BCCD900952CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF7C0F261F4BCCD900952CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF7C0F281F4BCCD900952CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7C0F2B1F4BCCD900952CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF7C0F2D1F4BCCD900952CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7C0F321F4BCCD900952CC8 /* KMReceiverCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMReceiverCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7C0F361F4BCCD900952CC8 /* KMReceiverCellDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMReceiverCellDemoUITests.swift; sourceTree = "<group>"; };
+		AF7C0F381F4BCCD900952CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7C0F421F4BCD2C00952CC8 /* ReceiverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverCell.swift; sourceTree = "<group>"; };
+		AF7C0F431F4BCD2C00952CC8 /* ReceiverCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiverCell.xib; sourceTree = "<group>"; };
+		AF7C0F441F4BCD2C00952CC8 /* ReceiverTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverTextField.swift; sourceTree = "<group>"; };
+		AF7C0F481F4BCD6200952CC8 /* ReceiverCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverCellModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF7C0F1B1F4BCCD900952CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7C0F2F1F4BCCD900952CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF7C0F151F4BCCD900952CC8 = {
+			isa = PBXGroup;
+			children = (
+				AF7C0F411F4BCD2C00952CC8 /* KMReceiverCell */,
+				AF7C0F201F4BCCD900952CC8 /* KMReceiverCellDemo */,
+				AF7C0F351F4BCCD900952CC8 /* KMReceiverCellDemoUITests */,
+				AF7C0F1F1F4BCCD900952CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7C0F1F1F4BCCD900952CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C0F1E1F4BCCD900952CC8 /* KMReceiverCellDemo.app */,
+				AF7C0F321F4BCCD900952CC8 /* KMReceiverCellDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7C0F201F4BCCD900952CC8 /* KMReceiverCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C0F211F4BCCD900952CC8 /* AppDelegate.swift */,
+				AF7C0F231F4BCCD900952CC8 /* ViewController.swift */,
+				AF7C0F251F4BCCD900952CC8 /* Main.storyboard */,
+				AF7C0F281F4BCCD900952CC8 /* Assets.xcassets */,
+				AF7C0F2A1F4BCCD900952CC8 /* LaunchScreen.storyboard */,
+				AF7C0F2D1F4BCCD900952CC8 /* Info.plist */,
+			);
+			path = KMReceiverCellDemo;
+			sourceTree = "<group>";
+		};
+		AF7C0F351F4BCCD900952CC8 /* KMReceiverCellDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C0F361F4BCCD900952CC8 /* KMReceiverCellDemoUITests.swift */,
+				AF7C0F381F4BCCD900952CC8 /* Info.plist */,
+			);
+			path = KMReceiverCellDemoUITests;
+			sourceTree = "<group>";
+		};
+		AF7C0F411F4BCD2C00952CC8 /* KMReceiverCell */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C0F481F4BCD6200952CC8 /* ReceiverCellModel.swift */,
+				AF7C0F421F4BCD2C00952CC8 /* ReceiverCell.swift */,
+				AF7C0F431F4BCD2C00952CC8 /* ReceiverCell.xib */,
+				AF7C0F441F4BCD2C00952CC8 /* ReceiverTextField.swift */,
+			);
+			name = KMReceiverCell;
+			path = ../KMReceiverCell;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF7C0F1D1F4BCCD900952CC8 /* KMReceiverCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7C0F3B1F4BCCD900952CC8 /* Build configuration list for PBXNativeTarget "KMReceiverCellDemo" */;
+			buildPhases = (
+				AF7C0F1A1F4BCCD900952CC8 /* Sources */,
+				AF7C0F1B1F4BCCD900952CC8 /* Frameworks */,
+				AF7C0F1C1F4BCCD900952CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMReceiverCellDemo;
+			productName = KMReceiverCellDemo;
+			productReference = AF7C0F1E1F4BCCD900952CC8 /* KMReceiverCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF7C0F311F4BCCD900952CC8 /* KMReceiverCellDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7C0F3E1F4BCCD900952CC8 /* Build configuration list for PBXNativeTarget "KMReceiverCellDemoUITests" */;
+			buildPhases = (
+				AF7C0F2E1F4BCCD900952CC8 /* Sources */,
+				AF7C0F2F1F4BCCD900952CC8 /* Frameworks */,
+				AF7C0F301F4BCCD900952CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7C0F341F4BCCD900952CC8 /* PBXTargetDependency */,
+			);
+			name = KMReceiverCellDemoUITests;
+			productName = KMReceiverCellDemoUITests;
+			productReference = AF7C0F321F4BCCD900952CC8 /* KMReceiverCellDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7C0F161F4BCCD900952CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Klein Mioke";
+				TargetAttributes = {
+					AF7C0F1D1F4BCCD900952CC8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AF7C0F311F4BCCD900952CC8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF7C0F1D1F4BCCD900952CC8;
+					};
+				};
+			};
+			buildConfigurationList = AF7C0F191F4BCCD900952CC8 /* Build configuration list for PBXProject "KMReceiverCellDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF7C0F151F4BCCD900952CC8;
+			productRefGroup = AF7C0F1F1F4BCCD900952CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7C0F1D1F4BCCD900952CC8 /* KMReceiverCellDemo */,
+				AF7C0F311F4BCCD900952CC8 /* KMReceiverCellDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF7C0F1C1F4BCCD900952CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7C0F2C1F4BCCD900952CC8 /* LaunchScreen.storyboard in Resources */,
+				AF7C0F291F4BCCD900952CC8 /* Assets.xcassets in Resources */,
+				AF7C0F461F4BCD2C00952CC8 /* ReceiverCell.xib in Resources */,
+				AF7C0F271F4BCCD900952CC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7C0F301F4BCCD900952CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF7C0F1A1F4BCCD900952CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7C0F471F4BCD2C00952CC8 /* ReceiverTextField.swift in Sources */,
+				AF7C0F241F4BCCD900952CC8 /* ViewController.swift in Sources */,
+				AF7C0F491F4BCD6200952CC8 /* ReceiverCellModel.swift in Sources */,
+				AF7C0F451F4BCD2C00952CC8 /* ReceiverCell.swift in Sources */,
+				AF7C0F221F4BCCD900952CC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7C0F2E1F4BCCD900952CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7C0F371F4BCCD900952CC8 /* KMReceiverCellDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF7C0F341F4BCCD900952CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF7C0F1D1F4BCCD900952CC8 /* KMReceiverCellDemo */;
+			targetProxy = AF7C0F331F4BCCD900952CC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF7C0F251F4BCCD900952CC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7C0F261F4BCCD900952CC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF7C0F2A1F4BCCD900952CC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7C0F2B1F4BCCD900952CC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF7C0F391F4BCCD900952CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF7C0F3A1F4BCCD900952CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7C0F3C1F4BCCD900952CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMReceiverCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunlei.KMReceiverCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF7C0F3D1F4BCCD900952CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMReceiverCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunlei.KMReceiverCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AF7C0F3F1F4BCCD900952CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KMReceiverCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunlei.KMReceiverCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KMReceiverCellDemo;
+			};
+			name = Debug;
+		};
+		AF7C0F401F4BCCD900952CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KMReceiverCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunlei.KMReceiverCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KMReceiverCellDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7C0F191F4BCCD900952CC8 /* Build configuration list for PBXProject "KMReceiverCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7C0F391F4BCCD900952CC8 /* Debug */,
+				AF7C0F3A1F4BCCD900952CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7C0F3B1F4BCCD900952CC8 /* Build configuration list for PBXNativeTarget "KMReceiverCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7C0F3C1F4BCCD900952CC8 /* Debug */,
+				AF7C0F3D1F4BCCD900952CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF7C0F3E1F4BCCD900952CC8 /* Build configuration list for PBXNativeTarget "KMReceiverCellDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7C0F3F1F4BCCD900952CC8 /* Debug */,
+				AF7C0F401F4BCCD900952CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF7C0F161F4BCCD900952CC8 /* Project object */;
+}
