@@ -3,7 +3,7 @@
 //  FileMail
 //
 //  Created by jiangkelan on 20/05/2017.
-//  Copyright © 2017 xlvip. All rights reserved.
+//  Copyright © 2017 Klein Mioke. All rights reserved.
 //
 
 import UIKit
